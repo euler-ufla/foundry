@@ -1,0 +1,46 @@
+{
+  "id": "abc",
+  "title": "ABC",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Author 1",
+      "flags": {}
+    },
+    {
+      "name": "Author 2",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Pack 1",
+      "path": "packs/pack-1",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "pack-2",
+      "label": "Pack 2",
+      "path": "packs/pack-2",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "_placeholder": true
+      }
+    }
+  ]
+}
